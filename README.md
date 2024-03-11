@@ -4,6 +4,8 @@
 
 A demo project that pretrains a tinyllama on Chinese corpora, with minimal modification to the huggingface transformers code. It serves as a use case to demonstrate how to use the huggingface version [TinyLlama](https://github.com/whyNLP/tinyllama) to pretrain a model on a large corpus.
 
+The model is trained on 90B tokens and is available at [HuggingFace](https://huggingface.co/whynlp/tinyllama-zh).
+
 ## Installation
 The installation follows that of [TinyLlama](https://github.com/whyNLP/tinyllama). The following is my installation process on a machine with CUDA 12.1.
 
